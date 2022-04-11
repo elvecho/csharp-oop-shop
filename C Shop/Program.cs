@@ -6,7 +6,7 @@ using C_Shop;
 
 Console.WriteLine("inserisci il nome");
 string nome = Console.ReadLine();
-Console.WriteLine(" inserisci una descrizione");
+
 string Descrizione = "ciao";
 int Prezzo = 12;
 int Iva = 22;
@@ -29,7 +29,7 @@ NuovoProdotto.StampaProdotto();
 
 Magazzino NuovoMagazzino = new Magazzino(disponibilitàS, disponibilitàp, disponibilitàT, NumeroTabletAcquistati2, NumeropcAcquistati2, NumeroSmartphoneAcquistati2);
 
-for( int i = 0; i < 3; i++)
+for(int i = 0; i < 35; i++)
 {
     Console.WriteLine("inserisci il nome del prodotto, a disposizione abbiamo: smartphone, pc, tablet");
     string nomeProdotto = Console.ReadLine();
